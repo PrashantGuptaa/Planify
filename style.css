@@ -73,18 +73,21 @@ overflow-x: hidden;
 
 .leftContent {
     width: 25%;
-    min-height: 572px;
+    height: 672px;
     padding: 10px;
+   position: sticky;
+   top: 0;
 }
 
 .leftCard {
     display: flex;
     flex-direction: column;
-    min-height: 95%;
+    height: 95%;
     width: 95%;
     padding: 5px;
     border: 1px solid black;
     border-radius: 10px;
+    
 }
 
 .horizontalCenter {
